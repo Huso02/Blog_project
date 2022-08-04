@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+/* nav */
+body {
+    margin-top: 176px;
+    background: #EFF0F3;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #EFF0F3;
+    position: fixed;
+    margin-top: -176px;
+}
+
+.nav-div {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-item a {
+    font-family: 'Plus Jakarta Sans';
+    text-transform: capitalize;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2B2C34;
+}
+
+.nav-item img {
+    padding-right: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-div button {
+    background: #6246EA;
+    border-radius: 4px;
+    color: #FFFFFE;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 11px 17px;
+    border: none;
+}
+
+/* header */
+.giris {
+    width: 42%;
+}
+
+.giris h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 81px;
+    text-transform: capitalize;
+
+    color: #2B2C34;
+}
+
+.giris p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #9A9494;
+    border-left: 3px solid #2B2C34;
+    padding-left: 12px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-input input,
+.SFLU input {
+    background: #FFFFFE;
+    border-radius: 8px;
+    padding: 21px 200px 21px 25px;
+    border: none;
+    margin-top: 33px;
+}
+
+.header-input input:focus,
+.SFLU input:focus {
+    outline: none;
+}
+
+.header-input button,
+.mainbtn,
+.SFLU button {
+    padding: 20px 23px 19px;
+    background: #6246EA;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.ox {
+    margin-top: 239px;
+}
+
+.ox img {
+    padding-left: 50vw;
+}
+
+/* Brovse */
+.browse,
+.component {
+    margin-top: 125.5px;
+    display: flex;
+    justify-content: space-around;
+    gap: 700px;
+}
+
+
+.main {
+    padding-top: 1px;
+    background-color: #E4E5E9;
+}
+
+.browse button {
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: right;
+    text-transform: capitalize;
+    color: #2B2C34;
+}
+
+.browse p,
+.component p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #2B2C34;
+}
+
+.component button {
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: right;
+    text-transform: capitalize;
+    color: #2B2C34;
+    background-color: #E4E5E9;
+}
+
+.btc {
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btc button {
+    width: 220px;
+    height: 280px;
+    left: 0px;
+    top: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #2B2C34;
+    border: none;
+    background: #FFFFFE
+}
+
+.btc button:hover {
+    background: #6246EA;
+    color: #FFFFFE;
+    border: none;
+}
+
+/* main hisse */
+.repit img {
+    width: 198px;
+    height: 213px;
+}
+
+.repit {
+    width: 240px;
+}
+
+.FA {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.repit h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #2B2C34;
+}
+
+.dasteen img {
+    width: 57px;
+    height: 57px;
+}
+
+.dasteen {
+    display: flex;
+    margin-top: 80px;
+}
+
+.dasteen h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2B2C34;
+}
+
+.dasteen p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #2B2C34;
+
+}
+
+.eyilik {
+    height: 240px;
+}
+
+.ad {
+    padding-left: 10px;
+}
+
+.endbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+/* sonuncu button                     */
+.SFLU {
+    padding-top: 58px avto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SFLU h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    text-transform: capitalize;
+    color: #2B2C34;
+}
+
+.SFLU p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #C0C0C0;
+}

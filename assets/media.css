@@ -1,0 +1,24 @@
+@media (max-width:900px){
+    .nav-item{
+        display: none;
+    }
+    header img{
+        display: none;
+    }
+    .giris{
+        width: 80%;
+    }
+    .browse,
+    .component{
+        gap: 350px;
+    }
+    .btc{
+        gap: 15px;
+    }
+    .ox{
+        margin-top: 80px;
+    }
+    .FA .repit:last-child{
+        display: none;
+    }
+}
