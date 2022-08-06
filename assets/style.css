@@ -101,7 +101,7 @@ header {
 }
 
 .header-input input,
-.SFLU input {
+.section-poct input {
     background: #FFFFFE;
     border-radius: 8px;
     padding: 21px 200px 21px 25px;
@@ -110,13 +110,13 @@ header {
 }
 
 .header-input input:focus,
-.SFLU input:focus {
+.section-poct input:focus {
     outline: none;
 }
 
 .header-input button,
 .mainbtn,
-.SFLU button {
+.section-poct button {
     padding: 20px 23px 19px;
     background: #6246EA;
     border-radius: 8px;
@@ -276,14 +276,14 @@ header {
 }
 
 /* sonuncu button                     */
-.SFLU {
-    padding-top: 58px avto;
+.section-poct {
+    padding-bottom: 58px; 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.SFLU h1 {
+.section-poct h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -292,10 +292,54 @@ header {
     color: #2B2C34;
 }
 
-.SFLU p {
+.section-poct p {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 25px;
     color: #C0C0C0;
+}
+.section-end{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.section-end h2{
+    font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+text-transform: uppercase;
+color: #2B2C34;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.section-end p{
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+text-transform: capitalize;
+color: #2B2C34;
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+hr{
+    width: 90%;
+    margin: auto;
+}
+.son{
+    display: flex;
+    justify-content:space-between ;
+    width: 90%;
+    margin: auto;
+}
+.son p{
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #2B2C34;
 }
