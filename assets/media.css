@@ -21,4 +21,23 @@
     .FA .repit:last-child{
         display: none;
     }
+    .icon img:first-child,.icon h4{
+        display: none;
+    }
+    .section-end{
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        align-content: space-around;
+    }
+    .iconsvg{
+        display: flex;
+        justify-content:center;
+        gap: 20px;
+        padding-top: 30px;
+        
+    }
+    .FU{
+        gap: 50px;
+    justify-content: space-evenly;
+    }
 }

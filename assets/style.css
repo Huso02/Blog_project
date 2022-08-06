@@ -10,8 +10,7 @@
 /* nav */
 body {
     margin-top: 176px;
-    background: #EFF0F3;
-}
+    background: #EFF0F3;}
 
 nav {
     display: flex;
@@ -145,7 +144,7 @@ header {
 
 .main {
     padding-top: 1px;
-    background-color: #E4E5E9;
+    background: #FFFFFE
 }
 
 .browse button {
@@ -178,7 +177,7 @@ header {
     text-align: right;
     text-transform: capitalize;
     color: #2B2C34;
-    background-color: #E4E5E9;
+    background: #FFFFFE
 }
 
 .btc {
@@ -277,10 +276,11 @@ header {
 
 /* sonuncu button                     */
 .section-poct {
-    padding-bottom: 58px; 
+    padding-bottom: 58px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #EFF0F3;
 }
 
 .section-poct h1 {
@@ -299,47 +299,65 @@ header {
     line-height: 25px;
     color: #C0C0C0;
 }
-.section-end{
+
+.section-end {
     display: flex;
     justify-content: space-around;
+    align-items: stretch;
+    padding-top: 70px;
     padding-bottom: 50px;
+    background: #E4E5E9;
 }
-.section-end h2{
+
+.section-end h2 {
     font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 25px;
-text-transform: uppercase;
-color: #2B2C34;
-flex: none;
-order: 1;
-flex-grow: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #2B2C34;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
-.section-end p{
+
+.section-end p {
     font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 23px;
-text-transform: capitalize;
-color: #2B2C34;
-flex: none;
-order: 3;
-flex-grow: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: capitalize;
+    color: #2B2C34;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
 }
-hr{
+
+hr {
     width: 90%;
     margin: auto;
 }
-.son{
+.sonn{
+    background: #E4E5E9
+}
+.son {
     display: flex;
-    justify-content:space-between ;
+    justify-content: space-between;
     width: 90%;
     margin: auto;
+    padding: 26px 0;
+    
 }
-.son p{
+
+.son p {
     font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 18px;
-color: #2B2C34;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #2B2C34;
+}
+.FU{
+    display: flex;
+    gap: 80px;
+
 }
