@@ -116,7 +116,7 @@ header {
 .header-input button,
 .mainbtn,
 .section-poct button {
-    padding: 20px 23px 19px;
+    padding:  20px 23px 19px;
     background: #6246EA;
     border-radius: 8px;
     border: none;
@@ -156,6 +156,9 @@ header {
     text-align: right;
     text-transform: capitalize;
     color: #2B2C34;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .browse p,
@@ -198,7 +201,8 @@ header {
     text-transform: capitalize;
     color: #2B2C34;
     border: none;
-    background: #FFFFFE
+    background: #FFFFFE;
+    transition: 0.5s all ease;
 }
 
 .btc button:hover {

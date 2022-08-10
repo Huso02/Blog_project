@@ -1,0 +1,63 @@
+@media only screen and (max-width: 500px) {
+    .header-input{
+        flex-direction: column;  
+    }
+    nav{
+    justify-content : flex-start;
+    padding-left: 32px;
+    }
+    .nav-div{
+        display: none;
+    }
+    .header-input button,
+    .section-poct button{
+        margin-left:0;
+    }
+    .header-input input,
+    .section-poct input{
+        width: 300px;
+        margin-bottom: 10px;
+    }
+    .browse ,.component{
+        gap: 20px;
+        padding-left: 10px;
+    }
+    .btc button:last-child,
+    .btc button:nth-child(4),
+    .btc button:nth-child(3){
+        display: none;
+    }
+    .browse p ,.component p{
+        width: 140px;
+    }
+    .browse button ,.component button{
+        width: 110px;
+        align-items: center;
+        gap: 10px;
+    }
+    .FA .repit:nth-child(4),
+    .FA .repit:nth-child(3),
+    .FA .repit:nth-child(2){
+        display: none;
+    }
+    .FA{
+        justify-content: center;
+    }
+    .repit img{
+        
+    }
+    .eyilik {
+        height: 200px;
+    }
+    .FU{
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    .section-poct{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+
